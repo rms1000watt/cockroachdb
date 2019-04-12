@@ -17,12 +17,16 @@ cockroachdb/cockroach    v2.1.6  5a5e5c38ddc5  4 weeks ago     320MB
 
 ## Build
 
+Build the container:
+
 ```bash
 ./build.sh
 ```
 
 ## Run
 
+Run the container (and open UI):
+
 ```bash
-docker run -it --rm rms1000watt/cockroachdb start --insecure
+./run.sh
 ```
